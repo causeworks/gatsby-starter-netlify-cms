@@ -43,7 +43,7 @@ const AboutPage = ({ data }) => {
       <AboutPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
-        subtitle={post.frontmatter.html}
+        subtitle={post.frontmatter.subtitle}
         content={post.html}
       />
     </Layout>
