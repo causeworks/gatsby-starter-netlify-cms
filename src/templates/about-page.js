@@ -16,7 +16,7 @@ export const AboutPageTemplate = ({ title, subtitle, content, contentComponent }
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}
               </h2>
-              <h3 className="subtitle is-size-4 has-text-weight-bold is-bold-light">
+              <h3 className="subtitle">
                 {subtitle}
               </h3>
               <PageContent className="content" content={content} />
